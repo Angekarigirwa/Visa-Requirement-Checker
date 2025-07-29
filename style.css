@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #2a6f97;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #1b4d6b;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.visa-card {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.visa-card a {
+  color: #1976d2;
+  text-decoration: none;
+}
